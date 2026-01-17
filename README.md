@@ -67,15 +67,15 @@ Create a .env file in backend/:
 
 Inside .env file:
 
-DATABASE_URL="mysql://username:password@localhost:port/database_name"
-DATABASE_USER="root"
-DATABASE_PASSWORD="vipul"
-DATABASE_NAME="mydb"
-DATABASE_HOST="localhost"
-DATABASE_PORT=3306
-JWT_SECRET="dkgut8t6545dygvcesqygughh"
-FRONTEND_URL="http://localhost:5173"
-PORT=5000
+DATABASE_URL="mysql://username:password@localhost:port/database_name" <br>
+DATABASE_USER="root" <br>
+DATABASE_PASSWORD="vipul" <br>
+DATABASE_NAME="mydb" <br>
+DATABASE_HOST="localhost" <br>
+DATABASE_PORT=3306 <br>
+JWT_SECRET="dkgut8t6545dygvcesqygughh" <br>
+FRONTEND_URL="http://localhost:5173" <br>
+PORT=5000 <br>
 
 ### 4. Prisma setup
 npx prisma migrate dev --name init
