@@ -78,7 +78,7 @@ FRONTEND_URL="http://localhost:5173" <br>
 PORT=5000 <br>
 
 ### 4. Prisma setup
-npx prisma migrate dev --name init
+npx prisma migrate dev --name init  <br>
 npx prisma generate
 
 refer to this [Prisma installation docs](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/mysql) for more information.
